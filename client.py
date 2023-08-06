@@ -10,3 +10,4 @@ SERVER_PORT = 12345
 
 def send_audio():
     p = pyaudio.PyAudio()
+    stream = p.open(format=FORMAT,
