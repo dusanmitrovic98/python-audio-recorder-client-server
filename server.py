@@ -20,3 +20,4 @@ def receive_audio():
     frames = []
     p = pyaudio.PyAudio()
     stream = p.open(format=FORMAT,
+                    channels=CHANNELS,
