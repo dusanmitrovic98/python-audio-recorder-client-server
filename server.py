@@ -47,3 +47,4 @@ def receive_audio():
     wf.writeframes(b"".join(frames))
     wf.close()
 
+    conn.close()
