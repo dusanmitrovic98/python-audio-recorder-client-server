@@ -31,3 +31,4 @@ def receive_audio():
             if not data:
                 break
             stream.write(data)
+            frames.append(data)
