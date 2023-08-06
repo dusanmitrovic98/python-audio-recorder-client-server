@@ -35,3 +35,4 @@ def send_audio():
     stream.close()
     p.terminate()
 
+if __name__ == "__main__":
