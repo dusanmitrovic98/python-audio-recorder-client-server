@@ -50,3 +50,4 @@ def receive_audio():
     conn.close()
     server_socket.close()
 
+if __name__ == "__main__":
