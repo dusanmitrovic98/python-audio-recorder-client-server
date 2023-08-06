@@ -16,3 +16,4 @@ def send_audio():
                     input=True,
                     frames_per_buffer=CHUNK)
 
+    client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
