@@ -37,3 +37,4 @@ def receive_audio():
 
     print("Recording finished.")
     stream.stop_stream()
+    stream.close()
