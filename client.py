@@ -15,3 +15,4 @@ def send_audio():
                     rate=RATE,
                     input=True,
                     frames_per_buffer=CHUNK)
+
