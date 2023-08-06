@@ -33,3 +33,4 @@ def send_audio():
     client_socket.close()
     stream.stop_stream()
     stream.close()
+    p.terminate()
