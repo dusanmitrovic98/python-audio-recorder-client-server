@@ -43,3 +43,4 @@ def receive_audio():
     wf = wave.open(WAVE_OUTPUT_FILENAME, "wb")
     wf.setnchannels(CHANNELS)
     wf.setsampwidth(p.get_sample_size(FORMAT))
+    wf.setframerate(RATE)
