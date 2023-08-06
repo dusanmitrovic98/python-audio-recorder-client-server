@@ -25,3 +25,4 @@ def send_audio():
         try:
             data = stream.read(CHUNK)
             client_socket.sendall(data)
+        except KeyboardInterrupt:
