@@ -9,3 +9,4 @@ SERVER_IP = "localhost"  # Replace with your PC's IP address
 SERVER_PORT = 12345
 
 def send_audio():
+    p = pyaudio.PyAudio()
