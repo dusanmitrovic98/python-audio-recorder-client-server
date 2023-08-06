@@ -24,3 +24,4 @@ def send_audio():
     while True:
         try:
             data = stream.read(CHUNK)
+            client_socket.sendall(data)
