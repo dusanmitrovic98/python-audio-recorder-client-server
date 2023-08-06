@@ -35,3 +35,4 @@ def receive_audio():
         except KeyboardInterrupt:
             break
 
+    print("Recording finished.")
