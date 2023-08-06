@@ -24,3 +24,4 @@ def receive_audio():
                     rate=RATE,
                     output=True,
                     frames_per_buffer=CHUNK)
+
