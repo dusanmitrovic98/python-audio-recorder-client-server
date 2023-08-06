@@ -33,3 +33,4 @@ def receive_audio():
             stream.write(data)
             frames.append(data)
         except KeyboardInterrupt:
+            break
