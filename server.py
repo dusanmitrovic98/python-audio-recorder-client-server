@@ -48,3 +48,4 @@ def receive_audio():
     wf.close()
 
     conn.close()
+    server_socket.close()
