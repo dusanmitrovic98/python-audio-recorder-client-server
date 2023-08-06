@@ -27,3 +27,4 @@ def send_audio():
             client_socket.sendall(data)
         except KeyboardInterrupt:
             break
+
