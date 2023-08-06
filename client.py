@@ -36,3 +36,4 @@ def send_audio():
     p.terminate()
 
 if __name__ == "__main__":
+    send_audio()
