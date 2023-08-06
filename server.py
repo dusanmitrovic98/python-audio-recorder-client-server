@@ -28,3 +28,4 @@ def receive_audio():
     while True:
         try:
             data = conn.recv(CHUNK)
+            if not data:
