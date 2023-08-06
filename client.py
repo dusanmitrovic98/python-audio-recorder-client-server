@@ -13,3 +13,4 @@ def send_audio():
     stream = p.open(format=FORMAT,
                     channels=CHANNELS,
                     rate=RATE,
+                    input=True,
