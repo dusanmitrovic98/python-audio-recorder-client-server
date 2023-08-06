@@ -39,3 +39,4 @@ def receive_audio():
     stream.stop_stream()
     stream.close()
     p.terminate()
+
