@@ -9,3 +9,4 @@ RATE = 44100
 WAVE_OUTPUT_FILENAME = "output.wav"
 
 def receive_audio():
+    server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
