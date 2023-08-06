@@ -14,3 +14,4 @@ def receive_audio():
     server_socket.listen(1)
 
     print("Waiting for connection...")
+    conn, address = server_socket.accept()
