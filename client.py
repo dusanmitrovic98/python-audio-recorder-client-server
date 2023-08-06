@@ -12,3 +12,4 @@ def send_audio():
     p = pyaudio.PyAudio()
     stream = p.open(format=FORMAT,
                     channels=CHANNELS,
+                    rate=RATE,
