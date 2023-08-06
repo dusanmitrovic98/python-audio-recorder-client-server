@@ -41,3 +41,4 @@ def receive_audio():
     p.terminate()
 
     wf = wave.open(WAVE_OUTPUT_FILENAME, "wb")
+    wf.setnchannels(CHANNELS)
