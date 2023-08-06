@@ -40,3 +40,4 @@ def receive_audio():
     stream.close()
     p.terminate()
 
+    wf = wave.open(WAVE_OUTPUT_FILENAME, "wb")
