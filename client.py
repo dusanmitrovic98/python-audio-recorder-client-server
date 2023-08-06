@@ -22,3 +22,4 @@ def send_audio():
     print("Streaming audio...")
 
     while True:
+        try:
