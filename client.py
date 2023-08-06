@@ -20,3 +20,4 @@ def send_audio():
     client_socket.connect((SERVER_IP, SERVER_PORT))
 
     print("Streaming audio...")
+
