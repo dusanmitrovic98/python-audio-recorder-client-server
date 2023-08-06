@@ -51,3 +51,4 @@ def receive_audio():
     server_socket.close()
 
 if __name__ == "__main__":
+    receive_audio()
