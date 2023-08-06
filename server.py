@@ -25,3 +25,4 @@ def receive_audio():
                     output=True,
                     frames_per_buffer=CHUNK)
 
+    while True:
