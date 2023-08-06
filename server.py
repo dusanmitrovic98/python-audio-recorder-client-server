@@ -17,3 +17,4 @@ def receive_audio():
     conn, address = server_socket.accept()
     print(f"Connection established with {address}")
 
+    frames = []
