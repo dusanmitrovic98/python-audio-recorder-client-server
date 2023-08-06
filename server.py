@@ -30,3 +30,4 @@ def receive_audio():
             data = conn.recv(CHUNK)
             if not data:
                 break
+            stream.write(data)
