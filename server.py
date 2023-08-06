@@ -18,3 +18,4 @@ def receive_audio():
     print(f"Connection established with {address}")
 
     frames = []
+    p = pyaudio.PyAudio()
