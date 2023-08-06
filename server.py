@@ -46,3 +46,4 @@ def receive_audio():
     wf.setframerate(RATE)
     wf.writeframes(b"".join(frames))
     wf.close()
+
