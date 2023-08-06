@@ -13,3 +13,4 @@ def receive_audio():
     server_socket.bind(("0.0.0.0", 12345))
     server_socket.listen(1)
 
+    print("Waiting for connection...")
