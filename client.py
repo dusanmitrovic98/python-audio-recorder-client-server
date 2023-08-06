@@ -28,3 +28,4 @@ def send_audio():
         except KeyboardInterrupt:
             break
 
+    print("Streaming finished.")
