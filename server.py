@@ -22,3 +22,4 @@ def receive_audio():
     stream = p.open(format=FORMAT,
                     channels=CHANNELS,
                     rate=RATE,
+                    output=True,
