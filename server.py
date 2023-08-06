@@ -8,3 +8,4 @@ CHANNELS = 1
 RATE = 44100
 WAVE_OUTPUT_FILENAME = "output.wav"
 
+def receive_audio():
