@@ -40,3 +40,4 @@ This Python script sets up an audio sender using sockets to stream audio data fr
 
 #### Configuration
 
+- The sender script reads audio from the local microphone. If you want to use a different audio input source, modify the `stream = p.open(format=FORMAT, channels=CHANNELS, rate=RATE, input=True, frames_per_buffer=CHUNK)` line in the `send_audio()` function.
