@@ -19,3 +19,4 @@ This Python script sets up an audio receiver using sockets to receive audio data
 #### Configuration
 
 - The receiver script binds to the IP address "0.0.0.0" and port 12345. If you want to change the listening address and port, modify the `server_socket.bind(("0.0.0.0", 12345))` line in the `receive_audio()` function.
+
