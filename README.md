@@ -24,3 +24,4 @@ This Python script sets up an audio receiver using sockets to receive audio data
 
 #### Description
 
+This Python script sets up an audio sender using sockets to stream audio data from the local machine to a remote receiver on a specified IP address and port.
