@@ -17,3 +17,4 @@ This Python script sets up an audio receiver using sockets to receive audio data
 2. The sender should run the corresponding `sender.py` script to send audio data to this receiver.
 
 #### Configuration
+
