@@ -9,3 +9,4 @@ This Python script sets up an audio receiver using sockets to receive audio data
 #### Requirements
 
 - Python 3.x
+- `pyaudio` library (`pip install pyaudio`)
