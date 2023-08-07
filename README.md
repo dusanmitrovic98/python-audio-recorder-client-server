@@ -38,3 +38,4 @@ This Python script sets up an audio sender using sockets to stream audio data fr
 3. Replace the `SERVER_PORT` with the port number on which the remote receiver is listening.
 4. The receiver should be running the corresponding `receiver.py` script to receive audio data from this sender.
 
+#### Configuration
