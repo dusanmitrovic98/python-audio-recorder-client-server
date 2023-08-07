@@ -31,3 +31,4 @@ This Python script sets up an audio sender using sockets to stream audio data fr
 - Python 3.x
 - `pyaudio` library (`pip install pyaudio`)
 
+#### Usage
