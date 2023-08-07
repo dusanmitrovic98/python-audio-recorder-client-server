@@ -33,3 +33,4 @@ This Python script sets up an audio sender using sockets to stream audio data fr
 
 #### Usage
 
+1. Run the `sender.py` script on the machine where the audio is being captured (sender).
