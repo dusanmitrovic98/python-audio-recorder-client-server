@@ -15,3 +15,4 @@ This Python script sets up an audio receiver using sockets to receive audio data
 
 1. Run the `receiver.py` script on the machine where you want to save the received audio.
 2. The sender should run the corresponding `sender.py` script to send audio data to this receiver.
+
