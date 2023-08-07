@@ -13,3 +13,4 @@ This Python script sets up an audio receiver using sockets to receive audio data
 
 #### Usage
 
+1. Run the `receiver.py` script on the machine where you want to save the received audio.
